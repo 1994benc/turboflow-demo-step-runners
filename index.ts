@@ -7,7 +7,7 @@ import { uppercase } from "./handlers/uppercase.ts";
 const app = new Application();
 app.use(
   oakCors({
-    origin: ["http://localhost:3001", "https://turboflow.co"]
+    origin: ["http://localhost:3001", "https://turboflow.co", "https://www.turboflow.co"]
   }),
 );
 const router = new Router();
